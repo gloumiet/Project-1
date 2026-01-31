@@ -1,0 +1,113 @@
+/* Place CSS styles here */
+body {
+  background-color: #F8F4EF;
+  border-top: 60px solid #2E1F18;
+}
+
+h1 {
+  font-family: "Benyoritha", cursive;
+  font-weight: 400;
+  font-size: 4em;
+  text-align: center;
+  color: #2E1F18;
+  margin-top: 25px;
+}
+
+h2 {
+  font-family: "Bodoni 72 Oldstyle", serif;
+  font-weight: 300;
+  text-align: center;
+  color: #2E1F18;
+  margin-top: 40px;
+}
+
+h3 {
+  font-family: "Din Alternate", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  color: #2E1F18;
+  margin: 150px;
+}
+
+.section-divider {
+  width: 90px;
+  height: 8px;
+  background-color: #2E1F18;
+  margin: 150px auto;
+  border-radius: 5px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+.box {
+  width: 150px;
+  height: 200px;
+  border: 3px solid #f472b6;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Deseo', sans-serif;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 10px;
+}
+
+.word-container {
+  display: flex;               /* line words horizontally */
+  justify-content: center;     /* center the whole row */
+  gap: 100px;                   /* space between words */
+  margin: 50px 0;              /* space above and below */
+}
+.word {
+  font-family: 'Benyoitha', cursive; /* same as h1 */
+  font-weight: 300;                  /* Medium Thin */
+  font-size: 4em;                    /* same or bigger than h1 */
+  color: #c084fc;                    /* match your heading color */
+  text-align: center;
+}
+
+.box-container {
+  display: flex;                /* line boxes horizontally */
+  justify-content: center;      /* center the row */
+  gap: 40px;                    /* space between boxes */
+  margin: 50px 0;               /* space above and below */
+  flex-wrap: wrap;              /* wrap on smaller screens */
+}
+.text-box {
+  width: 200px;                 /* box width */
+  padding: 20px;                /* inside spacing */
+  border: 3px solid #f472b500;   /* cute border */
+  border-radius: 12px;          /* rounded corners */
+  background-color: #fdf2f800;   /* soft pastel background */
+  text-align: center;           /* center text inside box */
+}
+
+p {
+  font-family: "Din Alternate", sans-serif;
+  font-weight: 200;
+  color: #2E1F18;
+  margin: 150px;
+}
+
+.box-heading {
+  font-family: "Bodoni 72 Oldstyle", serif;
+  font-weight: 300;                  /* Medium Thin */
+  font-size: 2em;                    /* large heading size */
+  color: #c084fc;                    /* matches your h1 color */
+  margin: 0 0 10px 0;                /* space below heading */
+}
+.text-box p {
+  font-family: 'Deseo', sans-serif; /* optional: same font for body text */
+  font-size: 1em;
+  color: #444;
+  margin: 0;
+}
+
