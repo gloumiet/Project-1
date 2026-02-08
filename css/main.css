@@ -5,119 +5,221 @@
   font-style: normal;
 }
 
-/* Place CSS styles here */
 body {
   background-color: #F8F4EF;
   border-top: 60px solid #2E1F18;
-  font-family: "Din Alternative", sans-serif;
-}
-
-.bodoni {
-  font-family: "Bodoni 72 Oldstyle", serif;
+  border-bottom: 60px solid #2E1F18;
 }
 
 h1 {
   font-family: 'Benyoritha', serif;
-  font-size: 500;
+  font-size: 90px;
   font-weight: 200;
   text-align: center;
   color: #2E1F18;
   margin-top: 25px;
 }
 
+h2-word {
+  font-family: "Bodoni 72 Oldstyle", serif;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  color: #2E1F18;
+  margin-top: 40px;
+}
+
 h2 {
-  font-weight: 300;
+  font-family: "Bodoni 72 Oldstyle", serif;
+  font-size: 30px;
+  font-weight: 100;
   text-align: center;
   color: #2E1F18;
   margin-top: 40px;
 }
 
 h3 {
+  font-family: 'Deseo', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #2E1F18;
+  margin: 0px ;
+}
+
+p {
+  font-family: 'Deseo', sans-serif;
+  font-size: 20px;
   font-weight: 200;
   text-align: center;
   color: #2E1F18;
-  margin: 150px;
+  margin: 50px;
 }
 
-.section-divider {
-  width: 90px;
-  height: 8px;
-  background-color: #2E1F18;
-  margin: 150px auto;
-  border-radius: 5px;
+.description {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin: 30;
+  display: flex;
+}
+
+.list-box {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  border: 3px #a58a64;
+  border-radius: 12px;
+  background-color: #a58a64;
+  margin: 40px;
+  font-family: 'Deseo', sans-serif;
+}
+
+.list-box ul {
+  padding-left: 20px;
+}
+
+.list-box li {
+  margin: 10px;
+  font-weight: 300;
+}
+
+.info-box {
+  color: #a58a64;
+  width: 800px;
+  height: 200px;
+  padding: 25px;
+  border-radius: 14px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: 'Deseo', sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.box-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #a58a64;
+  margin-bottom: 15px;
+}
+
+.box-list {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+  color: #2E1F18;
+}
+
+.box-list li {
+  margin: 8px;
+  font-weight: 300;
 }
 
 .box-container {
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 30px;
-  margin: 50px 0;
-  flex-wrap: wrap;
+  min-height: 20vh;
 }
-.box {
-  width: 150px;
-  height: 200px;
-  border: 3px solid #f472b6;
+
+.center-box {
+  width: 200px;
+  height: 160px;
+  background-color: #a58a64;
+  border: 3px solid #2E1F18;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  color: white;
+  color: #2E1F18;
+  font-family: 'Deseo', sans-serif;
+  font-weight: bold;
+}
+
+.box {
+  background-color: #a58a64;
+  width: 200px;
+  height: 200px;
+  border: 3px #2E1F18;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: #2E1F18;
   font-weight: bold;
   font-family: 'Deseo', sans-serif;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   padding: 10px;
 }
+
+.box-title {
+  font-weight: 300;
+  font-size: 2em;
+  color: #685336;
+  margin-bottom: 15px;
+}
+
 
 .word-container {
   display: flex;
   justify-content: center;
   gap: 100px;
-  margin: 50px 0;
+  margin: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.word-parent {
+  display: flex;  
+  justify-content: center;
+  gap: 40px;
+}
+
 .word {
   font-family: 'Benyoitha', cursive;
   font-weight: 300;
-  font-size: 4em;
-  color: #c084fc;
+  font-size: 50px;
+  color: #2E1F18;
   text-align: center;
 }
 
-.box-container {
+.divider {
+  width: 70%;
+  height: 3px;
+  background-color: #2E1F18;
+  border: none;
+  margin: 40px auto;
+  border-radius: 2px;
+}
+
+.grid-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  margin: 50px 0;
-  flex-wrap: wrap;
-}
-.text-box {
-  width: 200px;
-  padding: 20px;
-  border: 3px solid #f472b500;
-  border-radius: 12px;
-  background-color: #fdf2f800;
-  text-align: center;
+  gap: 0px;
+  margin: 40px auto;
 }
 
-p {
-  font-family: "Din Alternate", sans-serif;
-  font-weight: 200;
+.link-box {
+  background-color: #a58a64;
   color: #2E1F18;
-  margin: 150px;
-}
-
-.box-heading {
-  font-family: "Bodoni 72 Oldstyle", serif;
-  font-weight: 300;
-  font-size: 2em;
-  color: #c084fc;
-  margin: 0 0 10px 0;
-}
-.text-box p {
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 40px;
+  height: 20px;
+  margin: 40px auto;
   font-family: 'Deseo', sans-serif;
-  font-size: 1em;
-  color: #444;
-  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
